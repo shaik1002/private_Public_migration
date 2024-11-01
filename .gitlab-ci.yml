@@ -3,6 +3,9 @@ stages:
 
 build_job:
   stage: build
+  image: openjdk:11-jdk-slim
+  variables:
+    JAVA_HOME: "/usr/local/openjdk-11"
   script:
     - chmod +x ./gradlew
     - ./gradlew build

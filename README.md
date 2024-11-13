@@ -98,3 +98,4 @@ You can see the external transitive dependency `commons-lang` being replaced wit
 ```
 gradle dependencies --configuration compile
 ```
+## Sample Commits

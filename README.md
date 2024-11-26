@@ -1,5 +1,5 @@
 ## Using composite builds in a hierarchical multirepo project
-
+checking syncing of commits from github to gitlab in feature1 for 26nov2024
 NOTE: You can open this sample inside an IDE using the [IntelliJ native importer](https://www.jetbrains.com/help/idea/gradle.html#gradle_import_project_start) or [Eclipse Buildship](https://projects.eclipse.org/projects/tools.buildship).
 
 
@@ -98,4 +98,3 @@ You can see the external transitive dependency `commons-lang` being replaced wit
 ```
 gradle dependencies --configuration compile
 ```
-## Sample Commits
